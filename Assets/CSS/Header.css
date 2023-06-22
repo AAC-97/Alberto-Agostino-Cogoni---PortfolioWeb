@@ -1,0 +1,25 @@
+.Header{
+  position: fixed;
+  background-color: blanchedalmond;
+  height: 50px;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Right-section{
+  display: flex;
+  margin-right: 15px;
+}
+.Home{
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.Left-section{
+  margin-left: 15px;
+}
