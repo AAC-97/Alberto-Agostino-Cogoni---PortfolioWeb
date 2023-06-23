@@ -9,22 +9,39 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
 
-.Right-section{
-  display: flex;
-  margin-right: 15px;
-}
-.Home{
-  margin-right: 15px;
-  cursor: pointer;
+  
+  border-bottom: solid 1px;
 }
 
 .Left-section{
   margin-left: 15px;
   display: flex;
 }
+.Name{
+  white-space: nowrap;
+}
+
 .Icon{
   width: 20px;
-  margin-right: 8px;
+  margin-right: 6px;
+  object-fit: cover;
+  object-fit: contain;
+}
+.Right-section{
+  display: flex;
+  margin-right: 15px;
+}
+.Navigator{
+  margin-right: 15px;
+  cursor: pointer;
+  display: flex;
+}
+.Collegamento:active,
+.Collegamento:visited,
+.Collegamento:hover,
+.Collegamento:link{
+  text-decoration: none;
+  color: black;
+  
 }
