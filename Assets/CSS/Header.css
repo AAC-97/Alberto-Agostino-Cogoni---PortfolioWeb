@@ -37,6 +37,9 @@
   cursor: pointer;
   display: flex;
 }
+.Collegamento{
+  display: flex;
+}
 .Collegamento:active,
 .Collegamento:visited,
 .Collegamento:hover,
