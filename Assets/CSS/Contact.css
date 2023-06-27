@@ -21,14 +21,14 @@
   display: flex;
   
 }
-.Telefono{
+.Scrivimi{
   margin-left: 10px;
   text-decoration: none;
   color: rgb(255, 249, 239);
 }
-.Telefono:active,
-.Telefono:hover,
-.Telefono:visited,
-.Telefono:link{
+.Scrivimi:active,
+.Scrivimi:hover,
+.Scrivimi:visited,
+.Scrivimi:link{
   text-decoration: none;
 }
