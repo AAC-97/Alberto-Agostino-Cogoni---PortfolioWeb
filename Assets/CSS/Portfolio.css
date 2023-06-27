@@ -1,0 +1,21 @@
+.Messaggio{
+  color: white;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+
+  
+}
+.Testo{
+  position: fixed;
+  right: 10%;
+  left: 10%;
+  white-space: nowrap;
+
+  
+}
+.Manutenzione{
+  
+  
+}
