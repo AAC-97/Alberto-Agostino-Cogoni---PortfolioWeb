@@ -1,7 +1,9 @@
 body{
   background-color: rgb(27, 27, 27);
-  height: 1400px;
+  height: 100%;
   font-family: Lora;
   margin-top: 0;
   margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px;
 }

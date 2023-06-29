@@ -13,13 +13,53 @@
 }
 .Presentazione{
   color: black;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 30px;
-  margin-right: 30px;
+  margin-right: 50px;
   width: 100%;
   font-size: 22px;
 }
 .Lavoro{
   font-weight: bold;
   font-size: 28px;
+}
+
+.Immagine1{
+  width: 100%;
+  margin-bottom: 50px;
+  opacity: 0.5;
+}
+.Sfondo{
+  position: relative;
+}
+.Testo_immagine1{
+  width: 400px;
+  position: absolute;
+
+  top: 20%;
+
+  left: 50%;
+  margin-left: -200px;
+
+  
+  white-space: nowrap;
+
+  color: white;
+  font-size: 30px;
+}
+.Testo2_immagine1{
+  width: 1200px;
+  position: absolute;
+
+  top: 30%;
+
+  left: 50%;
+  margin-left: -600px;
+
+  
+  white-space: nowrap;
+
+  color: white;
+  font-size: 30px;
+
 }
