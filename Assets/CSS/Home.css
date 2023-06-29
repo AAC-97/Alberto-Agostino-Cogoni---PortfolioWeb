@@ -32,28 +32,28 @@
   position: relative;
 }
 .Testo_immagine1{
-  width: 400px;
+  width: 550px;
   position: absolute;
 
   top: 20%;
 
   left: 50%;
-  margin-left: -200px;
+  margin-left: -275px;
 
   
   white-space: nowrap;
 
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 .Testo2_immagine1{
-  width: 1200px;
+  width: 1220px;
   position: absolute;
 
   top: 30%;
 
   left: 50%;
-  margin-left: -600px;
+  margin-left: -610px;
 
   
   white-space: nowrap;
@@ -63,7 +63,7 @@
 
 }
 .Testo3_immagine1{
-  width: 550px;
+  width: 500px;
   position: absolute;
 
   top: 35%;
