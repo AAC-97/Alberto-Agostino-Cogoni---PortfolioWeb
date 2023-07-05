@@ -1,7 +1,7 @@
 .Header{
   position: fixed;
-  background-color: rgb(255, 249, 239);
-  height: 50px;
+  background-color: rgba(26, 26, 26, 1); /*rgb(255, 249, 239)*/
+  height: 60px;
   left: 0;
   right: 0;
   top: 0;
@@ -13,6 +13,8 @@
   
   border-bottom: solid 1px;
   z-index: 100;
+
+  font-size: 19px;
 }
 
 .Left-section{
@@ -24,7 +26,7 @@
 }
 
 .Icon{
-  width: 20px;
+  width: 19px;
   margin-right: 6px;
   object-fit: cover;
   object-fit: contain;
@@ -46,7 +48,7 @@
 .Collegamento:hover,
 .Collegamento:link{
   text-decoration: none;
-  color: black;
+  color: white;
   
 }
 

@@ -1,7 +1,7 @@
 .Contact{
   margin-top: 100px;
   margin-left: 30px;
-  color: rgb(255, 249, 239);
+  color: white; /*rgb(255, 249, 239)*/
 }
 .Social{
   width: 20px;
@@ -11,7 +11,7 @@
   display: flex;
 }
 .Linea{
-  color: rgb(255, 249, 239);
+  color: white; /*rgb(255, 249, 239)*/
   margin-top: 100px;
   margin-left: 30px;
   margin-right: 30px;
@@ -24,7 +24,7 @@
 .Scrivimi{
   margin-left: 10px;
   text-decoration: none;
-  color: rgb(255, 249, 239);
+  color: white; /*rgb(255, 249, 239)*/
 }
 .Scrivimi:active,
 .Scrivimi:hover,
