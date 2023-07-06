@@ -15,7 +15,7 @@
 
 }
 .Foto-profilo{
-  height: 800px;
+  height: 830px;
   object-fit: cover;
   object-fit: contain;
 }
@@ -45,13 +45,13 @@
   position: relative;
 }
 .Testo_immagine1{
-  width: 550px;
+  width: 560px;
   position: absolute;
 
-  top: 20%;
+  top: 15%;
 
   left: 50%;
-  margin-left: -275px;
+  margin-left: -280px;
 
   
   white-space: nowrap;
@@ -60,13 +60,13 @@
   font-size: 40px;
 }
 .Testo2_immagine1{
-  width: 1220px;
+  width: 1280px;
   position: absolute;
 
-  top: 30%;
+  top: 25%;
 
   left: 50%;
-  margin-left: -610px;
+  margin-left: -640px;
 
   
   white-space: nowrap;
@@ -79,7 +79,7 @@
   width: 500px;
   position: absolute;
 
-  top: 35%;
+  top: 30%;
 
   left: 50%;
   margin-left: -275px;
@@ -92,13 +92,13 @@
 
 }
 .Testo4_immagine1{
-  width: 350px;
+  width: 380px;
   position: absolute;
 
-  top: 55%;
+  top: 50%;
 
   left: 50%;
-  margin-left: -175px;
+  margin-left: -190px;
 
   
   white-space: nowrap;
@@ -107,13 +107,13 @@
   font-size: 30px;
 }
 .Testo5_immagine1{
-  width: 650px;
+  width: 700px;
   position: absolute;
 
-  top: 60%;
+  top: 55%;
 
   left: 50%;
-  margin-left: -325px;
+  margin-left: -350px;
 
 
   
@@ -124,13 +124,13 @@
 }
 
 .bottone1{
-  width: 240px;
+  width: 250px;
   position: absolute;
 
-  top: 70%;
+  top: 65%;
 
   left: 50%;
-  margin-left: -120px;
+  margin-left: -125px;
 
 
   
@@ -145,7 +145,13 @@
   border-width: 5px;
   border-style: solid;
   border-radius: 20px;
-  font-family: lora, Montserrat;
+  font-family: Merriweather, lora, Montserrat;
   
   cursor: pointer;
+}
+
+.bottone1:active,
+.bottone1:hover{
+  border-color: white;
+
 }

@@ -14,7 +14,7 @@
   border-bottom: solid 1px;
   z-index: 100;
 
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .Left-section{
@@ -26,7 +26,7 @@
 }
 
 .Icon{
-  width: 19px;
+  width: 15px;
   margin-right: 6px;
   object-fit: cover;
   object-fit: contain;
@@ -34,6 +34,7 @@
 .Right-section{
   display: flex;
   margin-right: 15px;
+  font-size: 15px;
 }
 .Navigator{
   margin-right: 15px;
