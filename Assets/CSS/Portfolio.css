@@ -1,17 +1,13 @@
-.Messaggio{
-  color: white;
-  margin-top: 300px;
-  text-align: center;
-  font-size: 24px;
-  display: flex;
-
-  
+body{
+  background-color: rgb(26, 26, 26)!important; 
 }
-.Testo{
-  position: fixed;
-  right: 10%;
-  left: 10%;
-  white-space: nowrap;
 
-  
+.row {
+  font-family: Marriwheather, lora, montserrat, arial;
+}
+.card{
+  margin-top: 120px;
+}
+.g-4{
+  background-color: rgb(26, 26, 26);
 }

@@ -1,8 +1,20 @@
 .Contact{
   margin-top: 100px;
-  margin-left: 30px;
-  color: white; /*rgb(255, 249, 239)*/
+  margin-bottom: 50px;
+  color: rgb(120, 120, 120); /*rgb(255, 249, 239)*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.Autore{
+  color: rgb(120, 120, 120);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+
+}
+
 .Social{
   width: 20px;
   margin-left: 7px;
@@ -26,7 +38,8 @@
 .Scrivimi{
   margin-left: 10px;
   text-decoration: none;
-  color: white; /*rgb(255, 249, 239)*/
+  color: rgb(120, 120, 120);/*rgb(255, 249, 239)*/
+  display: flex;
 }
 .Scrivimi:active,
 .Scrivimi:hover,
