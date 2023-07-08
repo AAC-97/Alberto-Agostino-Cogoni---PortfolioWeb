@@ -15,6 +15,7 @@
   z-index: 100;
 
   font-size: 20px;
+  font-family: Marriweather, lora, montserrat, arial;
 }
 
 .Left-section{
@@ -50,9 +51,11 @@
 .Collegamento:link{
   text-decoration: none;
   color: white;
+
   
 }
 
-.Collegamento:active{
+.Collegamento:active,
+.Collegamento:hover{
   opacity: 0.5;
 }
