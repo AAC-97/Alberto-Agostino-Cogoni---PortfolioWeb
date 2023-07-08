@@ -44,6 +44,7 @@
 }
 .Collegamento{
   display: flex;
+  
 }
 .Collegamento:active,
 .Collegamento:visited,
@@ -52,10 +53,14 @@
   text-decoration: none;
   color: white;
 
-  
 }
 
 .Collegamento:active,
 .Collegamento:hover{
   opacity: 0.5;
+  
+}
+
+.Collegamento::-webkit-scrollbar{
+  transition-duration: 2s;
 }

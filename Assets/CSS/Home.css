@@ -12,6 +12,11 @@
   margin-right: 115px;
   background-color: white; /*rgb(255, 249, 239)*/
 
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius:25px;
+  border-top-left-radius:25px;
+
 
 }
 .Foto-profilo{
@@ -23,6 +28,8 @@
   height: 750px;
   object-fit: cover;
   object-fit: contain;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .Presentazione{
   color: black;

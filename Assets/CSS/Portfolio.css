@@ -1,16 +1,19 @@
 body{
   background-color: rgb(26, 26, 26)!important; 
   padding-top: 120px;
-  font-family: Marriweather, lora, montserrat, arial !important; 
+  font-family: Marriweather, lora, montserrat, arial !important;
+  
 }
 
-.row {
-  
-  
-}
 
 .card:hover,
 .card:active{
   opacity: 0.9;
+}
+
+.row{
+  
+  margin-right: 0px !important;
+  padding-left: 12px !important;
 }
 
