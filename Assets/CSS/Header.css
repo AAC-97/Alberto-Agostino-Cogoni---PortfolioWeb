@@ -16,6 +16,9 @@
 
   font-size: 20px;
   font-family: Marriweather, lora, montserrat, arial;
+
+  border-width: 1px;
+  border-color: black;
 }
 
 .Left-section{
@@ -37,11 +40,19 @@
   margin-right: 15px;
   font-size: 15px;
 }
-.Navigator{
+.Navigator,
+.Navigator1,
+.Navigator2{
   margin-right: 15px;
   cursor: pointer;
   display: flex;
 }
+
+.Navigator2{
+  display: none;
+
+}
+
 .Collegamento{
   display: flex;
   
@@ -61,6 +72,86 @@
   
 }
 
-.Collegamento::-webkit-scrollbar{
-  transition-duration: 2s;
+
+
+ @media screen and (max-width: 320px) {
+  .Navigator,
+  .Navigator1{
+   display: none ;
+  }
+  .Navigator2{
+    display: flex;
+  }
+ }
+ @media screen and (max-width: 480px) {
+  .Navigator,
+  .Navigator1{
+   display: none ;
+  }
+  .Navigator2{
+    display: flex;
+  }
+ }
+ @media screen and (max-width: 768px) {
+  .Navigator,
+  .Navigator1{
+   display: none ;
+  }
+  .Navigator2{
+    display: flex;
+  }
+ }
+ @media screen and (min-width: 1024px) {
+  
+ }
+ @media screen and (min-width: 1200px) {
+  
+ }
+
+ .features-menu {
+  display: flex;
+  flex-direction: column;
+  background: rgb(26, 26, 26);
+  border-radius: 5px;
+  
+
+  position: absolute;     
+  top: 0px;
+  left: -60px;
+  
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.features-menu li {
+  list-style: none;
+  border-bottom: 1px solid #FFF;
+  
+  padding: 0px 10px 10px 10px;
+  margin: 10px;
+  
+}
+
+.features-menu li:last-of-type {
+  border-bottom: none;
+}
+
+.Navigator2 {
+  position: relative;
+}
+
+.features-menu {
+  z-index: 1;
+  display: none;
+}
+
+.Navigator2:hover .features-menu {    
+  display: flex;                    
+  flex-direction: column;
+  background: rgb(26, 26, 26);
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
 }

@@ -12,25 +12,40 @@
   margin-right: 115px;
   background-color: white; /*rgb(255, 249, 239)*/
 
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius:25px;
-  border-top-left-radius:25px;
+  box-shadow: inset -5px -5px 4px rgba(91, 91, 91, 0.20);
 
+  border-radius: 10px;
 
 }
-.Foto-profilo{
-  height: 830px;
+.Foto-profilo_About{
+  height: 825px;
   object-fit: cover;
   object-fit: contain;
+
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  
+  border-radius: 10px;
+
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
-.Foto-profilo_1{
-  height: 750px;
+.Foto-profilo_Home{
+  height: 800px;
   object-fit: cover;
   object-fit: contain;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  
+  border-radius: 10px;
+
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
+
 .Presentazione{
   color: black;
   margin-left: 50px;
