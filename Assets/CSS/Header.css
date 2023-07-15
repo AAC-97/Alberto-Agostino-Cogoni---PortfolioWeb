@@ -35,6 +35,14 @@
   object-fit: cover;
   object-fit: contain;
 }
+.Icon2{
+  width: 24px;
+  margin-right: 10px;
+  object-fit: cover;
+  object-fit: contain;
+
+}
+
 .Right-section{
   display: flex;
   margin-right: 15px;
@@ -74,7 +82,7 @@
 
 
 
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 768px) {
   .Navigator,
   .Navigator1{
    display: none ;
@@ -84,22 +92,10 @@
   }
  }
  @media screen and (max-width: 480px) {
-  .Navigator,
-  .Navigator1{
-   display: none ;
-  }
-  .Navigator2{
-    display: flex;
-  }
+  
  }
  @media screen and (max-width: 768px) {
-  .Navigator,
-  .Navigator1{
-   display: none ;
-  }
-  .Navigator2{
-    display: flex;
-  }
+  
  }
  @media screen and (min-width: 1024px) {
   
@@ -117,7 +113,7 @@
 
   position: absolute;     
   top: 0px;
-  left: -60px;
+  left: -50px;
   
   padding-top: 10px;
   padding-left: 0px;
