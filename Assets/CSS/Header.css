@@ -80,30 +80,7 @@
   opacity: 0.5;
   
 }
-
-
-
- @media screen and (max-width: 768px) {
-  .Navigator,
-  .Navigator1{
-   display: none ;
-  }
-  .Navigator2{
-    display: flex;
-  }
- }
- @media screen and (max-width: 480px) {
-  
- }
- @media screen and (max-width: 768px) {
-  
- }
- @media screen and (min-width: 1024px) {
-  
- }
- @media screen and (min-width: 1200px) {
-  
- }
+ 
 
  .features-menu {
   display: flex;
@@ -114,20 +91,22 @@
 
   position: absolute;     
   top: 0px;
-  left: -50px;
+  left: -40px;
   
   padding-top: 10px;
   padding-left: 0px;
   padding-right: 0px;
 
+  z-index: 1;
+  display: none;
 }
 
 .features-menu li {
   list-style: none;
   border-bottom: 1px solid #FFF;
   
-  padding: 0px 10px 10px 10px;
-  margin: 10px;
+  padding: 0;
+  margin: 8px;
   
 }
 
@@ -137,11 +116,6 @@
 
 .Navigator2 {
   position: relative;
-}
-
-.features-menu {
-  z-index: 1;
-  display: none;
 }
 
 .Navigator2:hover .features-menu {    
