@@ -52,7 +52,7 @@
      margin-left: -50px;
      margin-top: 20px;
 
-     padding: 10px 3px 10px 3px;
+     padding: 8px 3px 8px 3px;
      border-radius: 12px;
      top: 55%;
      border-width: 1px;
@@ -169,6 +169,7 @@
      margin-left: -60px;
      margin-top: 20px;
      border-width: 2px;
+     padding: 12px 8px 12px 8px;
    }
 
    .Header{
