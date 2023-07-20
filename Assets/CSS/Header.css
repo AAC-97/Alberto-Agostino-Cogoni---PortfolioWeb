@@ -90,15 +90,16 @@
   
 
   position: absolute;     
-  top: 0px;
+  top: -9px;
   left: -40px;
   
-  padding-top: 10px;
+  padding-top: 14px;
   padding-left: 0px;
   padding-right: 0px;
 
   z-index: 1;
   display: none;
+
 }
 
 .features-menu li {

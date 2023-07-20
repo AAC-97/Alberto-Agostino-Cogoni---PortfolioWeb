@@ -65,6 +65,8 @@
     width: 20px;
    }
 
+   
+
 
    .Contact{
     margin-top: 100px;
@@ -180,8 +182,6 @@
    .Navigator2{
     font-size: 13px;
    }
-
-
  }
  
  @media screen and (min-width: 671px) and (max-width: 870px) { /*Tablet 481-768*/
@@ -224,6 +224,8 @@
     border-width: 3px;
   }
  }
+
+
  @media screen and (min-width: 871px) and (max-width: 1300px) {
   .Testo_immagine1{
     width: 870px;
@@ -276,19 +278,14 @@
     justify-content: center;
     align-items: center;
 
-    flex-wrap: wrap; /*Non serve in tepria, perche ho imposta il padding*/
-
     padding: 0 15px 50px 15px;
 
     margin: 60px 15px 20px 15px;
-
-
-    
-    
   }
+
   .Foto-profilo_Home_Mobile{
   
-  width: 180px;
+  width: 160px;
   
   margin-top: 20px;
   
@@ -298,19 +295,19 @@
   
   
   }
-  .Presentazione{
 
-  margin: 0;
+  .Lavoro{
+    font-weight: bold;
+    font-size: 22px;
   }
-
   .Presentazione{
     color: black;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
+    margin: 0;
   }
-  .Lavoro{
-    font-weight: bold;
-    font-size: 24px;
+  .About{
+    font-size: 20px !important;
   }
 
   .Istruzione1,
@@ -321,10 +318,6 @@
 
   .Icon2{
     margin-right: 0px;
-  }
-  .Right-section{
-    display: flex;
-    margin-right: 15px;
   }
     
   .Icon{
@@ -354,7 +347,7 @@
   }
   .Foto-profilo_Home_Mobile{
   
-  width: 220px;
+  width: 200px;
   
   margin-top: 20px;
   
@@ -364,9 +357,18 @@
   
   
   }
+  .Lavoro{
+    font-weight: bold;
+    font-size: 22px;
+  }
   .Presentazione{
-   
-  margin: 0;
+    color: black;
+    width: 100%;
+    font-size: 16px;
+    margin: 0;
+  }
+  .About{
+    font-size: 20px !important;
   }
   
 .Istruzione1,
@@ -379,11 +381,6 @@
  .Icon2{
   margin-right: 0px;
  }
- .Right-section{
-  display: flex;
-  margin-right: 15px;
-  
-}
 .Icon{
   width: 10px;
 }
@@ -398,11 +395,9 @@
     justify-content: center;
     align-items: center;
 
-    flex-wrap: wrap; /*Non serve in tepria, perche ho imposta il padding*/
+    padding: 0 30px 50px 30px;
 
-    padding: 0 50px 50px 50px;
-
-    margin: 100px 50px 50px 50px;
+    margin: 70px 40px 40px 40px;
 
 
     
@@ -416,13 +411,21 @@
   
   border-radius: 250px;
   display: inline;
- 
-  
   
   }
+
+  .Lavoro{
+    font-weight: bold;
+    font-size: 24px;
+  }
   .Presentazione{
-   
-  margin: 0;
+    color: black;
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+  }
+  .About{
+    font-size: 20px !important;
   }
 
   .Icon2{
