@@ -71,7 +71,7 @@
    .Contact{
     margin-top: 100px;
     margin-bottom: 50px;
-    color: rgb(120, 120, 120); /*rgb(255, 249, 239)*/
+    color: rgb(120, 120, 120); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@
     display: flex;
   }
   .Linea{
-    color: white; /*rgb(255, 249, 239)*/
+    color: white; 
     margin-top: 100px;
     margin-left: 30px;
     margin-right: 30px;
@@ -110,7 +110,7 @@
   .Scrivimi{
     margin-left: 10px;
     text-decoration: none;
-    color: rgb(120, 120, 120);/*rgb(255, 249, 239)*/
+    color: rgb(120, 120, 120);
     display: flex;
   }
   .Scrivimi:active,
@@ -185,7 +185,7 @@
    }
  }
  
- @media screen and (min-width: 671px) and (max-width: 870px) { /*Tablet 481-768*/
+ @media screen and (min-width: 671px) and (max-width: 870px) { 
   .Testo_immagine1{
     width: 670px;
    font-size: 20px;
@@ -336,7 +336,7 @@
     justify-content: center;
     align-items: center;
 
-    flex-wrap: wrap; /*Non serve in tepria, perche ho imposta il padding*/
+    flex-wrap: wrap; 
 
     padding: 0 15px 50px 15px;
 
