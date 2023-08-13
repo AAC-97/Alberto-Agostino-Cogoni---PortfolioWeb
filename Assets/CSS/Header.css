@@ -6,9 +6,9 @@
   right: 0;
   top: 0;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
 
   
   border-bottom: solid 1px;
@@ -21,9 +21,15 @@
   border-color: black;
 }
 
+.Name{
+  font-size: 20px;
+  font-family: Marriweather, lora, montserrat, arial;
+  font-weight: normal;
+}
+
 .Left-section{
   margin-left: 30px;
-  display: flex;
+  display: flex !important;
 }
 .Name{
   white-space: nowrap;

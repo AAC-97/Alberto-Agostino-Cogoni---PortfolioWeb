@@ -4,8 +4,6 @@ body{
   font-family: Marriweather, lora, montserrat, arial !important;
   
 }
-
-
 .card:hover,
 .card:active{
   opacity: 0.9;
@@ -21,6 +19,32 @@ body{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 
+}
+
+.Scheda-Grigia{
+  background-color: rgb(118, 125, 134);
+  color: rgb(226, 226, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 250px;
+  width: 100%;
+
+  font-size: 1.125rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+ 
+  
+}
+
+.card-title{
+  font-size: 20px;
+}
+
+
+.Name{
+  margin-bottom: 0;
 }
 
 

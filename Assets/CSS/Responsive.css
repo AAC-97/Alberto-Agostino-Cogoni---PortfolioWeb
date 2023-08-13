@@ -58,8 +58,11 @@
      border-width: 1px;
    }
    .Header{
-    font-size: 15px;
+    font-size: 13px;
     height: 45px;
+   }
+   .Name{
+    font-size: 15px;
    }
    .Icon2{
     width: 20px;
@@ -120,9 +123,7 @@
     text-decoration: none;
   }
 
-  .Header{
-    font-size: 13px;
-  }
+
   .Icon2{
     width: 13px;
   }
@@ -177,6 +178,10 @@
     height: 45px;
    }
 
+   .Name{
+    font-size: 15px;
+   }
+
    .Icon2{
     width: 20px;
    }
@@ -224,6 +229,8 @@
     margin-top: 20px;
     border-width: 3px;
   }
+
+  
  }
 
 
@@ -266,6 +273,7 @@
      margin-top: 20px;
      border-width: 4px;
    }
+
  }
 
 
@@ -441,4 +449,9 @@
   .Foto-profilo_About{
     display: flex;
   }
+
+  .Scheda-Grigia{
+    height: 407px;
+  }
+
  }
