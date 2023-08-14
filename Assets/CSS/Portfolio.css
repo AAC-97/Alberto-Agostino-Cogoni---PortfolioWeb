@@ -49,3 +49,21 @@ body{
 
 
 
+
+
+button[type=submit] {  /**Form**/
+  background-color: #4CAF50;
+  color: #FFF;
+  padding: 8px 21px !important;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-top: 15px;
+  font-size: 11px;
+}
+
+
+
