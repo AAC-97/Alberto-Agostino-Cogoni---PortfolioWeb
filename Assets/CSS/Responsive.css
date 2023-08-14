@@ -130,6 +130,13 @@
   .Navigator2{
     font-size: 12px;
   }
+
+
+  label, input[type=text], textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 280px;
+  }
  }
 
  @media screen and (min-width: 440px) and (max-width: 670px){
@@ -188,6 +195,12 @@
    .Navigator2{
     font-size: 13px;
    }
+
+   label, input[type=text], textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+  }
  }
  
  @media screen and (min-width: 671px) and (max-width: 870px) { 
