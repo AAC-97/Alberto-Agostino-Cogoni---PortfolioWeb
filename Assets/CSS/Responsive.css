@@ -135,7 +135,7 @@
   label, input[type=text], textarea {
     display: block;
     box-sizing: border-box;
-    width: 280px;
+    width: 300px;
   }
  }
 
