@@ -1,7 +1,34 @@
-# Alberto-Agostino-Cogoni---PortfolioWeb
-## Descrizione
-Questo è il mio Portfolio personale, all'interno si possono trovare tutti i progetti a cui ho partecipato, la mia storia scolastica, lavorativa ei miei contatti pricincipali.
+# Portfolio deliverable
 
-Il sito è strutturato in 3 pagine: Home Page, Portfolio e About. Nel menù è presente anche una quarta voce: "Contact", altro non è che un collegamento interno al footer (identico per ogni pagina). Il sito è stato creato con Responsive Desing, oggi indispensabile.
+Static HTML/CSS/JavaScript site generated from the pasted brief.
 
-L'obiettivo principale è dare prova delle mie competenze e aumentare la mia visibilità all'interno del mondo del lavoro.
+## Files
+
+- `index.html`: personal portfolio for Alberto Agostino Cogoni.
+- `gaia-beauty.html`: multilingual Gaia Dessi Beauty demo/client page.
+- `cv.html`: printable web CV fallback.
+- `Assets/docs/CV_ALBERTO_COGONI.pdf`: downloadable CV PDF.
+- `Assets/images/alberto-profile.jpeg`: real portrait photo for the personal portfolio.
+- `Assets/images/gaia-profile.jpeg`: real portrait photo for Gaia Dessi Beauty.
+- `privacy.html`: draft privacy page.
+- `404.html`: static not-found page for GitHub Pages.
+- `Assets/styles.css`: responsive design, light/dark theme and beauty-page theme.
+- `Assets/script.js`: browser language detection, manual language switch, theme toggle and email copy.
+- `robots.txt`, `sitemap.xml`, `site.webmanifest`, `Assets/favicon.svg`: SEO and browser basics.
+- `.nojekyll`: keeps GitHub Pages from applying Jekyll processing.
+- `RELEASE_NOTES.md`: release summary and remaining go-live tasks.
+- `DEPLOY_CHECKLIST.md`: step-by-step deployment checklist.
+
+## Replace before publishing
+
+- `https://formspree.io/f/your-form-id` in both forms.
+- Review the public CV PDF before publishing, especially if it contains address, date of birth or other personal data.
+- Replace generated hero images with the real professional photos if desired.
+
+## Suggested GitHub Pages setup
+
+1. Copy the contents of this `outputs` folder into the repository root, or publish this folder as the Pages source.
+2. Replace placeholders listed above.
+3. In GitHub, enable Pages from the main branch.
+4. Update `robots.txt`, `sitemap.xml` and Open Graph URLs with the real domain.
+5. Test both `index.html` and `gaia-beauty.html` on desktop and mobile.

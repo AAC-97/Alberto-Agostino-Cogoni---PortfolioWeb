@@ -1,0 +1,15 @@
+{
+  "name": "Alberto Cogoni Portfolio",
+  "short_name": "AAC Portfolio",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07101d",
+  "theme_color": "#0b1220",
+  "icons": [
+    {
+      "src": "Assets/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+const translations = {
+  en: {
+    navAbout: "About",
+    navExperience: "Experience",
+    navProjects: "Projects",
+    navContact: "Contact",
+    availability: "Available for remote opportunities and freelance collaborations",
+    heroTitle: "I turn real business needs into simple, reliable and tailor-made digital solutions.",
+    heroSubtitle: "Java & SQL Developer focused on business applications, software maintenance and web solutions.",
+    ctaContact: "Contact me",
+    ctaCv: "Download CV",
+    ctaWebCv: "Web CV",
+    aboutEyebrow: "About",
+    aboutTitle: "Practical developer mindset, enterprise production experience.",
+    profileCaption: "Alberto Agostino Cogoni · Java & SQL Developer",
+    aboutP1: "I am a Java & SQL Developer with experience in application maintenance, production support and database analysis within enterprise environments.",
+    aboutP2: "My work focuses on troubleshooting application issues, analyzing production incidents, working with SQL queries, supporting releases and contributing to small code changes and fixes.",
+    aboutP3: "I am currently focused on growing as a Backend Developer / Java Developer, bringing a practical mindset, strong problem-solving skills and real experience with enterprise applications.",
+    experienceEyebrow: "Experience",
+    experienceTitle: "Application stability, data analysis and production support.",
+    expCurrentTitle: "Application Maintenance and Software Support",
+    expCurrentText: "Enterprise web applications, ticket management, incident analysis, log and data investigation, release support, bug fixing and collaboration with technical and functional teams.",
+    expTrainingTitle: "Technical Growth Path",
+    expTrainingText: "Hands-on learning across Java, JavaScript, Oracle SQL, Python, backend logic, application troubleshooting and database-driven workflows.",
+    skillsEyebrow: "Core Skills",
+    projectsEyebrow: "Selected Projects",
+    projectsTitle: "Technical portfolio for recruiters and small businesses.",
+    gaiaCard: "A multilingual website concept for a beauty and massage professional, with treatments, gift vouchers, WhatsApp booking and local SEO foundations.",
+    viewProject: "View project",
+    incidentCard: "Backend demo concept for tracking incidents, priorities, resolution notes and reporting on application reliability.",
+    sqlCard: "Reusable query patterns and reporting workflows for extracting useful signals from operational databases.",
+    contactEyebrow: "Contact",
+    contactTitle: "Let’s talk about development, support or a practical web solution.",
+    contactText: "Available for Java / SQL roles, backend-oriented opportunities, remote work and small-business digital projects.",
+    copyEmail: "Copy email",
+    formName: "Name",
+    formMessage: "Message",
+    formSend: "Send message",
+    backTop: "Back to top",
+    beautyNavAbout: "About",
+    beautyNavTreatments: "Treatments",
+    beautyNavGift: "Gift cards",
+    beautyNavBooking: "Book",
+    beautyAvailability: "Cagliari · Tuesday-Saturday · Home services by appointment",
+    beautyHeroTitle: "Beauty treatments and massages designed to help you feel good in your body.",
+    beautyHeroSubtitle: "A refined, welcoming and personalized experience for face, body and wellbeing.",
+    beautyWhatsapp: "Book on WhatsApp",
+    beautySeeTreatments: "See treatments",
+    beautyAboutEyebrow: "Gaia Dessi Beauty",
+    beautyAboutTitle: "Professional care, gentle attention and real focus on the person.",
+    beautyPortraitCaption: "Gaia Dessi · Beauty & Massage Specialist",
+    beautyAboutP1: "Gaia Dessi Beauty is dedicated to people looking for beauty treatments and massages in an elegant, relaxing and professional environment.",
+    beautyAboutP2: "Every appointment starts from the person’s needs: lightness, relaxation, drainage, tone or simply a moment of care.",
+    beautyAboutP3: "Available in Cagliari and, by appointment, also with home services.",
+    beautyTreatmentsEyebrow: "Treatments",
+    beautyTreatmentsTitle: "Choose the path that suits you best.",
+    massageTitle: "Massages and rituals",
+    drainage: "Draining massage",
+    californian: "Californian massage",
+    plantar: "Foot massage",
+    decontracting: "Decontracting massage",
+    faceTitle: "Face and beauty",
+    faceClean: "Facial cleansing",
+    hydrating: "Hydrating treatment",
+    antiage: "Anti-age treatment",
+    brows: "Brows and gaze definition",
+    waxing: "Waxing",
+    bodyTitle: "Body and wellbeing",
+    cellulite: "Anti-cellulite massage",
+    legs: "Light legs",
+    relax: "Relax rituals",
+    custom: "Personalized programs",
+    homeService: "Home services by appointment",
+    giftEyebrow: "Gift cards",
+    giftTitle: "Give a moment of care.",
+    giftText: "Gift cards are ideal for birthdays, special occasions and thoughtful gestures. Choose a specific treatment or a custom amount.",
+    askGift: "Request a gift card",
+    bookingEyebrow: "Contact",
+    bookingTitle: "Book your treatment.",
+    bookingText: "Write on WhatsApp or send a request from the form. The form uses a temporary endpoint to connect to Formspree.",
+    backPortfolio: "Portfolio project"
+  },
+  it: {
+    navAbout: "Chi sono",
+    navExperience: "Esperienza",
+    navProjects: "Progetti",
+    navContact: "Contatti",
+    availability: "Disponibile per opportunita da remoto e collaborazioni freelance",
+    heroTitle: "Trasformo esigenze concrete in soluzioni digitali semplici, affidabili e su misura.",
+    heroSubtitle: "Java & SQL Developer specializzato in applicazioni aziendali, manutenzione software e soluzioni web.",
+    ctaContact: "Contattami",
+    ctaCv: "Scarica CV",
+    ctaWebCv: "CV web",
+    aboutEyebrow: "Chi sono",
+    aboutTitle: "Mentalita pratica da developer, esperienza reale in produzione enterprise.",
+    profileCaption: "Alberto Agostino Cogoni · Java & SQL Developer",
+    aboutP1: "Sono un Java & SQL Developer con esperienza in manutenzione applicativa, supporto alla produzione e analisi dati su database in contesti enterprise.",
+    aboutP2: "Il mio lavoro si concentra sull'analisi di anomalie applicative, troubleshooting di incident in produzione, utilizzo di query SQL, supporto ai rilasci e contributo a piccole modifiche e fix sul codice.",
+    aboutP3: "Attualmente sono orientato a crescere come Backend Developer / Java Developer, portando un approccio pratico, buone capacita di problem solving ed esperienza reale su applicazioni enterprise.",
+    experienceEyebrow: "Esperienza",
+    experienceTitle: "Stabilita applicativa, analisi dati e supporto alla produzione.",
+    expCurrentTitle: "Application Maintenance e Software Support",
+    expCurrentText: "Applicazioni web enterprise, gestione ticket, analisi incident, indagine su log e dati, supporto ai rilasci, bug fixing e collaborazione con team tecnici e funzionali.",
+    expTrainingTitle: "Percorso di crescita tecnica",
+    expTrainingText: "Formazione pratica su Java, JavaScript, Oracle SQL, Python, logica backend, troubleshooting applicativo e workflow basati su database.",
+    skillsEyebrow: "Competenze",
+    projectsEyebrow: "Progetti selezionati",
+    projectsTitle: "Portfolio tecnico per recruiter e piccole attivita.",
+    gaiaCard: "Concept di sito multilingua per una professionista beauty e massaggi, con trattamenti, buoni regalo, prenotazione WhatsApp e basi SEO locali.",
+    viewProject: "Vedi progetto",
+    incidentCard: "Concept backend per tracciare incident, priorita, note di risoluzione e indicatori di affidabilita applicativa.",
+    sqlCard: "Pattern di query e flussi di reportistica per estrarre segnali utili dai database operativi.",
+    contactEyebrow: "Contatti",
+    contactTitle: "Parliamo di sviluppo, supporto o una soluzione web concreta.",
+    contactText: "Disponibile per ruoli Java / SQL, opportunita backend-oriented, lavoro da remoto e progetti digitali per piccole attivita.",
+    copyEmail: "Copia email",
+    formName: "Nome",
+    formMessage: "Messaggio",
+    formSend: "Invia messaggio",
+    backTop: "Torna su",
+    beautyNavAbout: "Chi sono",
+    beautyNavTreatments: "Trattamenti",
+    beautyNavGift: "Buoni regalo",
+    beautyNavBooking: "Prenota",
+    beautyAvailability: "Cagliari · Martedi-sabato · Servizi a domicilio su prenotazione",
+    beautyHeroTitle: "Trattamenti estetici e massaggi pensati per farti sentire bene nel tuo corpo.",
+    beautyHeroSubtitle: "Un'esperienza curata, accogliente e personalizzata per viso, corpo e benessere.",
+    beautyWhatsapp: "Prenota su WhatsApp",
+    beautySeeTreatments: "Vedi trattamenti",
+    beautyAboutEyebrow: "Gaia Dessi Beauty",
+    beautyAboutTitle: "Professionalita, delicatezza e attenzione reale alla persona.",
+    beautyPortraitCaption: "Gaia Dessi · Beauty & Massage Specialist",
+    beautyAboutP1: "Gaia Dessi Beauty e un progetto dedicato a chi cerca trattamenti estetici e massaggi in un ambiente elegante, rilassante e professionale.",
+    beautyAboutP2: "Ogni appuntamento viene costruito partendo dalle esigenze della persona: leggerezza, relax, drenaggio, tonicita o semplicemente un momento di cura.",
+    beautyAboutP3: "Disponibile a Cagliari e, su prenotazione, anche con servizi a domicilio.",
+    beautyTreatmentsEyebrow: "Trattamenti",
+    beautyTreatmentsTitle: "Scegli il percorso piu adatto a te.",
+    massageTitle: "Massaggi e rituali",
+    drainage: "Massaggio drenante",
+    californian: "Massaggio californiano",
+    plantar: "Massaggio plantare",
+    decontracting: "Massaggio decontratturante",
+    faceTitle: "Viso e beauty",
+    faceClean: "Pulizia viso",
+    hydrating: "Trattamento idratante",
+    antiage: "Trattamento anti-age",
+    brows: "Sopracciglia e definizione sguardo",
+    waxing: "Epilazione",
+    bodyTitle: "Corpo e benessere",
+    cellulite: "Massaggio anticellulite",
+    legs: "Gambe leggere",
+    relax: "Rituali relax",
+    custom: "Percorsi personalizzati",
+    homeService: "Servizi a domicilio su prenotazione",
+    giftEyebrow: "Buoni regalo",
+    giftTitle: "Regala un momento di cura.",
+    giftText: "I buoni regalo sono ideali per compleanni, ricorrenze e piccoli gesti speciali. Puoi scegliere un trattamento specifico o un importo personalizzato.",
+    askGift: "Richiedi un buono",
+    bookingEyebrow: "Contatti",
+    bookingTitle: "Prenota il tuo trattamento.",
+    bookingText: "Scrivi su WhatsApp o invia una richiesta dal form. Il form usa un endpoint provvisorio da collegare a Formspree.",
+    backPortfolio: "Progetto portfolio"
+  },
+  es: {
+    beautyNavAbout: "Sobre mi",
+    beautyNavTreatments: "Tratamientos",
+    beautyNavGift: "Tarjetas regalo",
+    beautyNavBooking: "Reservar",
+    beautyAvailability: "Cagliari · Martes-sabado · Servicios a domicilio con cita",
+    beautyHeroTitle: "Tratamientos de belleza y masajes pensados para que te sientas bien en tu cuerpo.",
+    beautyHeroSubtitle: "Una experiencia cuidada, acogedora y personalizada para rostro, cuerpo y bienestar.",
+    beautyWhatsapp: "Reservar por WhatsApp",
+    beautySeeTreatments: "Ver tratamientos",
+    beautyAboutEyebrow: "Gaia Dessi Beauty",
+    beautyAboutTitle: "Profesionalidad, delicadeza y atencion real a la persona.",
+    beautyPortraitCaption: "Gaia Dessi · Especialista en belleza y masajes",
+    beautyAboutP1: "Gaia Dessi Beauty esta dedicado a quienes buscan tratamientos esteticos y masajes en un ambiente elegante, relajante y profesional.",
+    beautyAboutP2: "Cada cita parte de las necesidades de la persona: ligereza, relajacion, drenaje, tonicidad o simplemente un momento de cuidado.",
+    beautyAboutP3: "Disponible en Cagliari y, con cita previa, tambien con servicios a domicilio.",
+    beautyTreatmentsEyebrow: "Tratamientos",
+    beautyTreatmentsTitle: "Elige el recorrido mas adecuado para ti.",
+    massageTitle: "Masajes y rituales",
+    drainage: "Masaje drenante",
+    californian: "Masaje californiano",
+    plantar: "Masaje plantar",
+    decontracting: "Masaje descontracturante",
+    faceTitle: "Rostro y belleza",
+    faceClean: "Limpieza facial",
+    hydrating: "Tratamiento hidratante",
+    antiage: "Tratamiento anti-edad",
+    brows: "Cejas y definicion de la mirada",
+    waxing: "Depilacion",
+    bodyTitle: "Cuerpo y bienestar",
+    cellulite: "Masaje anticelulitis",
+    legs: "Piernas ligeras",
+    relax: "Rituales de relax",
+    custom: "Programas personalizados",
+    homeService: "Servicios a domicilio con cita",
+    giftEyebrow: "Tarjetas regalo",
+    giftTitle: "Regala un momento de cuidado.",
+    giftText: "Las tarjetas regalo son ideales para cumpleanos, ocasiones especiales y pequenos detalles. Puedes elegir un tratamiento o un importe personalizado.",
+    askGift: "Solicitar tarjeta regalo",
+    bookingEyebrow: "Contacto",
+    bookingTitle: "Reserva tu tratamiento.",
+    bookingText: "Escribe por WhatsApp o envia una solicitud desde el formulario. El formulario usa un endpoint provisional para conectar con Formspree.",
+    formName: "Nombre",
+    formMessage: "Mensaje",
+    formSend: "Enviar solicitud",
+    backPortfolio: "Proyecto portfolio"
+  }
+};
+
+const langButtons = document.querySelectorAll("[data-lang]");
+const supported = [...langButtons].map((button) => button.dataset.lang);
+const browserLang = navigator.language.toLowerCase().startsWith("it") ? "it" : navigator.language.toLowerCase().startsWith("es") ? "es" : "en";
+const storedLang = localStorage.getItem("site-lang");
+const defaultLang = supported.includes(storedLang) ? storedLang : supported.includes(browserLang) ? browserLang : supported[0] || "en";
+
+function setLang(lang) {
+  const dictionary = translations[lang] || translations.en;
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-i18n]").forEach((node) => {
+    const value = dictionary[node.dataset.i18n] || translations.en[node.dataset.i18n] || translations.it[node.dataset.i18n];
+    if (value) node.textContent = value;
+  });
+  langButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.lang === lang));
+  localStorage.setItem("site-lang", lang);
+}
+
+langButtons.forEach((button) => button.addEventListener("click", () => setLang(button.dataset.lang)));
+setLang(defaultLang);
+
+const savedTheme = localStorage.getItem("site-theme");
+if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+document.getElementById("themeToggle")?.addEventListener("click", () => {
+  const next = document.documentElement.dataset.theme === "light" ? "dark" : "light";
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem("site-theme", next);
+});
+
+document.getElementById("year")?.append(new Date().getFullYear());
+document.getElementById("copyEmail")?.addEventListener("click", async (event) => {
+  const email = event.currentTarget.dataset.email;
+  await navigator.clipboard.writeText(email);
+  event.currentTarget.textContent = document.documentElement.lang === "it" ? "Email copiata" : "Email copied";
+});
+
+document.querySelectorAll("form[data-form-label]").forEach((form) => {
+  form.addEventListener("submit", (event) => {
+    if (!form.action.includes("your-form-id")) return;
+    event.preventDefault();
+    const message = document.documentElement.lang === "it"
+      ? "Il form e pronto, ma manca ancora l'endpoint Formspree reale."
+      : "The form is ready, but the real Formspree endpoint is still missing.";
+    alert(message);
+  });
+});
