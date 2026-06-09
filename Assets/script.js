@@ -81,7 +81,7 @@ const translations = {
     askGift: "Request a gift card",
     bookingEyebrow: "Contact",
     bookingTitle: "Book your treatment.",
-    bookingText: "Write on WhatsApp or send a request from the form. The form uses a temporary endpoint to connect to Formspree.",
+    bookingText: "Write on WhatsApp or send a request from the form.",
     backPortfolio: "Portfolio"
   },
   it: {
@@ -166,7 +166,7 @@ const translations = {
     askGift: "Richiedi un buono",
     bookingEyebrow: "Contatti",
     bookingTitle: "Prenota il tuo trattamento.",
-    bookingText: "Scrivi su WhatsApp o invia una richiesta dal form. Il form usa un endpoint provvisorio da collegare a Formspree.",
+    bookingText: "Scrivi su WhatsApp o invia una richiesta dal form.",
     backPortfolio: "Progetto portfolio"
   },
   es: {
@@ -210,7 +210,7 @@ const translations = {
     askGift: "Solicitar tarjeta regalo",
     bookingEyebrow: "Contacto",
     bookingTitle: "Reserva tu tratamiento.",
-    bookingText: "Escribe por WhatsApp o envia una solicitud desde el formulario. El formulario usa un endpoint provisional para conectar con Formspree.",
+    bookingText: "Escribe por WhatsApp o envia una solicitud desde el formulario.",
     contactWhatsapp: "WhatsApp",
     contactCall: "Llamar",
     contactEmail: "Email",
@@ -250,14 +250,3 @@ document.getElementById("themeToggle")?.addEventListener("click", () => {
 });
 
 document.getElementById("year")?.append(new Date().getFullYear());
-
-document.querySelectorAll("form[data-form-label]").forEach((form) => {
-  form.addEventListener("submit", (event) => {
-    if (!form.action.includes("your-form-id")) return;
-    event.preventDefault();
-    const message = document.documentElement.lang === "it"
-      ? "Il form e pronto, ma manca ancora l'endpoint Formspree reale."
-      : "The form is ready, but the real Formspree endpoint is still missing.";
-    alert(message);
-  });
-});
