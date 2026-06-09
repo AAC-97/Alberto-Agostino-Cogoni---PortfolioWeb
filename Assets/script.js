@@ -78,7 +78,7 @@ const translations = {
     bookingEyebrow: "Contact",
     bookingTitle: "Book your treatment.",
     bookingText: "Write on WhatsApp or send a request from the form. The form uses a temporary endpoint to connect to Formspree.",
-    backPortfolio: "Portfolio project"
+    backPortfolio: "Portfolio"
   },
   it: {
     navAbout: "Chi sono",

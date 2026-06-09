@@ -12,7 +12,7 @@
 ## Prima della pubblicazione definitiva
 
 - Aggiorna email, LinkedIn e GitHub in `index.html`.
-- Aggiorna Formspree in `index.html` e `gaia-beauty.html`.
+- Aggiorna Formspree in `index.html`.
 - Aggiorna dominio in `robots.txt` e `sitemap.xml`.
 - Controlla il PDF CV pubblico.
 - Prova il form contatti.
@@ -22,7 +22,6 @@
 ## File principali da pubblicare
 
 - `index.html`
-- `gaia-beauty.html`
 - `cv.html`
 - `privacy.html`
 - `404.html`

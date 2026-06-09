@@ -5,11 +5,9 @@ Static HTML/CSS/JavaScript site generated from the pasted brief.
 ## Files
 
 - `index.html`: personal portfolio for Alberto Agostino Cogoni.
-- `gaia-beauty.html`: multilingual Gaia Dessi Beauty demo/client page.
 - `cv.html`: printable web CV fallback.
 - `Assets/docs/CV_ALBERTO_COGONI.pdf`: downloadable CV PDF.
 - `Assets/images/alberto-profile.jpeg`: real portrait photo for the personal portfolio.
-- `Assets/images/gaia-profile.jpeg`: real portrait photo for Gaia Dessi Beauty.
 - `privacy.html`: draft privacy page.
 - `404.html`: static not-found page for GitHub Pages.
 - `Assets/styles.css`: responsive design, light/dark theme and beauty-page theme.
@@ -31,4 +29,4 @@ Static HTML/CSS/JavaScript site generated from the pasted brief.
 2. Replace placeholders listed above.
 3. In GitHub, enable Pages from the main branch.
 4. Update `robots.txt`, `sitemap.xml` and Open Graph URLs with the real domain.
-5. Test both `index.html` and `gaia-beauty.html` on desktop and mobile.
+5. Test `index.html` on desktop and mobile.

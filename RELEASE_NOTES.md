@@ -5,7 +5,7 @@
 Versione pronta per pubblicazione statica con:
 
 - portfolio personale bilingue IT/EN;
-- pagina progetto Gaia Dessi Beauty in IT/EN/ES;
+- link al progetto Gaia Dessi Beauty su dominio separato;
 - tema chiaro/scuro per il portfolio;
 - foto reali di Alberto e Gaia;
 - CV PDF scaricabile e CV web stampabile;
