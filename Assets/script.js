@@ -34,7 +34,7 @@ const translations = {
     contactText: "Available for Java / SQL roles, backend-oriented opportunities, remote work and small-business digital projects.",
     contactWhatsapp: "WhatsApp",
     contactCall: "Call",
-    copyEmail: "Copy email",
+    contactEmail: "Email",
     formName: "Name",
     formMessage: "Message",
     formSend: "Send message",
@@ -117,7 +117,7 @@ const translations = {
     contactText: "Disponibile per ruoli Java / SQL, opportunita backend-oriented, lavoro da remoto e progetti digitali per piccole attivita.",
     contactWhatsapp: "WhatsApp",
     contactCall: "Chiama",
-    copyEmail: "Copia email",
+    contactEmail: "Email",
     formName: "Nome",
     formMessage: "Messaggio",
     formSend: "Invia messaggio",
@@ -209,6 +209,7 @@ const translations = {
     bookingText: "Escribe por WhatsApp o envia una solicitud desde el formulario. El formulario usa un endpoint provisional para conectar con Formspree.",
     contactWhatsapp: "WhatsApp",
     contactCall: "Llamar",
+    contactEmail: "Email",
     formName: "Nombre",
     formMessage: "Mensaje",
     formSend: "Enviar solicitud",
@@ -245,11 +246,6 @@ document.getElementById("themeToggle")?.addEventListener("click", () => {
 });
 
 document.getElementById("year")?.append(new Date().getFullYear());
-document.getElementById("copyEmail")?.addEventListener("click", async (event) => {
-  const email = event.currentTarget.dataset.email;
-  await navigator.clipboard.writeText(email);
-  event.currentTarget.textContent = document.documentElement.lang === "it" ? "Email copiata" : "Email copied";
-});
 
 document.querySelectorAll("form[data-form-label]").forEach((form) => {
   form.addEventListener("submit", (event) => {
