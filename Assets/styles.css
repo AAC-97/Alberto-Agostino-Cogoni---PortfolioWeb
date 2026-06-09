@@ -274,6 +274,21 @@ h3 { font-size: 1.3rem; line-height: 1.2; }
   color: var(--primary);
   font-weight: 800;
 }
+.testimonial {
+  margin: 18px 0;
+  padding-left: 16px;
+  border-left: 3px solid var(--primary);
+  color: var(--muted);
+}
+.testimonial p {
+  margin-bottom: 8px;
+  font-size: 0.98rem;
+}
+.testimonial cite {
+  color: var(--text);
+  font-style: normal;
+  font-weight: 800;
+}
 .contact {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(320px, 0.75fr);
