@@ -290,13 +290,16 @@ h3 { font-size: 1.3rem; line-height: 1.2; }
   gap: 8px;
   color: var(--muted);
 }
-.contact-form input, .contact-form textarea {
+.contact-form input, .contact-form textarea, .contact-form select {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 12px;
   color: var(--text);
   background: var(--surface-2);
+}
+.contact-form select {
+  min-height: 48px;
 }
 .footer {
   display: flex;
