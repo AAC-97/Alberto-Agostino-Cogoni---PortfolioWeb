@@ -411,26 +411,18 @@ h3 { font-size: 1.3rem; line-height: 1.2; }
 .beauty-card ul { padding-left: 20px; color: var(--muted); }
 .whatsapp-float {
   position: fixed;
-  right: clamp(18px, 3vw, 28px);
-  bottom: clamp(18px, 3vw, 28px);
+  right: 18px;
+  bottom: 18px;
   z-index: 20;
   display: grid;
   place-items: center;
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  color: #f8fbff;
-  background:
-    radial-gradient(circle at 34% 24%, rgba(255, 255, 255, 0.35), transparent 28%),
-    linear-gradient(135deg, #25d366, #128c7e);
-  box-shadow: 0 18px 42px rgba(18, 140, 126, 0.35);
-  transition: transform .18s ease, box-shadow .18s ease;
-}
-.whatsapp-float:hover,
-.whatsapp-float:focus-visible {
-  color: #fff;
-  transform: translateY(-2px);
-  box-shadow: 0 22px 52px rgba(18, 140, 126, 0.48);
+  color: #fffaf4;
+  font-weight: 900;
+  background: #25d366;
+  box-shadow: var(--shadow);
 }
 .whatsapp-float svg {
   width: 26px;
