@@ -4,4 +4,14 @@
     <loc>https://albertocogoni.com/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://albertocogoni.com/ristorante-demo.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://albertocogoni.com/palestra-demo.html</loc>
+    <lastmod>2026-06-11</lastmod>
+    <priority>0.7</priority>
+  </url>
 </urlset>
