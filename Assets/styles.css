@@ -853,16 +853,46 @@ h3 { font-size: 1.3rem; line-height: 1.2; }
   --demo-hero-overlay: linear-gradient(90deg, rgba(20, 13, 9, 0.96), rgba(20, 13, 9, 0.78) 46%, rgba(20, 13, 9, 0.18));
 }
 .fitness-demo {
-  --bg: #07101d;
-  --surface: #0e1a2b;
-  --surface-2: #142237;
-  --text: #f4f8fb;
-  --muted: #b8c7d7;
-  --hero-muted: #d5e3ef;
-  --line: rgba(255, 255, 255, 0.13);
-  --primary: #63d6e5;
-  --accent: #68f2c2;
-  --demo-hero-overlay: linear-gradient(90deg, rgba(7, 16, 29, 0.96), rgba(7, 16, 29, 0.78) 46%, rgba(7, 16, 29, 0.12));
+  --bg: #10110b;
+  --surface: #181a10;
+  --surface-2: #232514;
+  --text: #fbfff2;
+  --muted: #c7cfb2;
+  --hero-muted: #eef7da;
+  --line: rgba(246, 255, 216, 0.15);
+  --primary: #d7ff38;
+  --accent: #ff6a2a;
+  --demo-hero-overlay:
+    radial-gradient(circle at 82% 22%, rgba(255, 106, 42, 0.32), transparent 18rem),
+    linear-gradient(90deg, rgba(16, 17, 11, 0.97), rgba(16, 17, 11, 0.84) 47%, rgba(16, 17, 11, 0.2));
+}
+.fitness-demo .brand-mark {
+  color: #10110b;
+  border-color: color-mix(in srgb, var(--primary) 70%, transparent);
+  background:
+    radial-gradient(circle at 74% 24%, color-mix(in srgb, var(--accent) 86%, transparent) 0 4px, transparent 5px),
+    linear-gradient(135deg, var(--primary), #f6ffd8);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.36), inset 0 0 0 1px rgba(16, 17, 11, 0.18);
+}
+.fitness-demo .demo-hero-image {
+  filter: saturate(0.9) hue-rotate(26deg) contrast(1.08) brightness(0.92);
+}
+.fitness-demo .primary {
+  color: #10110b;
+  background: linear-gradient(135deg, var(--primary), #efff9a);
+}
+.fitness-demo .secondary {
+  color: var(--text);
+  background: rgba(24, 26, 16, 0.74);
+}
+.fitness-demo .demo-kicker,
+.fitness-demo .demo-quick-facts li,
+.fitness-demo .demo-cta-band {
+  background: rgba(24, 26, 16, 0.78);
+}
+.fitness-demo .demo-price-card.featured,
+.fitness-demo .demo-cta-band {
+  border-color: color-mix(in srgb, var(--primary) 54%, transparent);
 }
 
 @media (max-width: 860px) {
