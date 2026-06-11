@@ -460,13 +460,126 @@ h3 { font-size: 1.3rem; line-height: 1.2; }
   fill: currentColor;
 }
 
+.demo-page {
+  min-height: 100vh;
+  background: var(--bg);
+}
+.demo-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px clamp(18px, 4vw, 56px);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(18px);
+}
+.demo-brand,
+.demo-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.demo-brand { font-weight: 800; }
+.demo-nav a {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.demo-nav a:hover { color: var(--text); }
+.demo-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  min-height: 720px;
+}
+.demo-hero-media {
+  min-height: 420px;
+  background-position: center;
+  background-size: cover;
+}
+.restaurant-media {
+  background:
+    linear-gradient(135deg, rgba(20, 13, 9, 0.2), rgba(20, 13, 9, 0.75)),
+    radial-gradient(circle at 28% 28%, rgba(255, 236, 190, 0.9) 0 7%, transparent 8%),
+    radial-gradient(circle at 62% 48%, rgba(160, 76, 45, 0.65) 0 12%, transparent 13%),
+    linear-gradient(145deg, #f0d0a4, #5b2c1c 45%, #140d09);
+}
+.fitness-media {
+  background:
+    linear-gradient(135deg, rgba(7, 16, 29, 0.22), rgba(7, 16, 29, 0.9)),
+    radial-gradient(circle at 26% 28%, rgba(99, 214, 229, 0.75) 0 9%, transparent 10%),
+    radial-gradient(circle at 72% 58%, rgba(104, 242, 194, 0.5) 0 12%, transparent 13%),
+    linear-gradient(145deg, #16243b, #07101d 54%, #02060d);
+}
+.demo-hero-content {
+  display: grid;
+  align-content: center;
+  padding: clamp(42px, 7vw, 92px);
+}
+.demo-kicker {
+  margin-bottom: 14px;
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.demo-hero-content p {
+  max-width: 660px;
+  color: var(--muted);
+  font-size: 1.14rem;
+}
+.demo-section {
+  width: min(1120px, calc(100% - 36px));
+  margin: 0 auto;
+  padding: clamp(64px, 10vw, 112px) 0;
+}
+.demo-menu {
+  display: grid;
+  gap: 14px;
+}
+.demo-menu-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+}
+.demo-menu-row strong { color: var(--text); }
+.restaurant-demo {
+  --bg: #140d09;
+  --surface: #21150f;
+  --surface-2: #2c1d14;
+  --text: #fff7ec;
+  --muted: #d7bea5;
+  --line: rgba(255, 247, 236, 0.14);
+  --primary: #f1b66d;
+  --accent: #f7dba9;
+}
+.fitness-demo {
+  --bg: #07101d;
+  --surface: #0e1a2b;
+  --surface-2: #142237;
+  --text: #f4f8fb;
+  --muted: #b5c3d1;
+  --line: rgba(255, 255, 255, 0.12);
+  --primary: #63d6e5;
+  --accent: #68f2c2;
+}
+
 @media (max-width: 860px) {
   .site-header { align-items: flex-start; flex-direction: column; }
   .nav { width: 100%; }
   .hero { min-height: 620px; }
-  .split, .timeline, .cards, .feature-card, .contact, .treatment-grid {
+  .split, .timeline, .cards, .feature-card, .contact, .treatment-grid, .demo-hero {
     grid-template-columns: 1fr;
   }
+  .demo-header { align-items: flex-start; flex-direction: column; }
+  .demo-hero { min-height: 0; }
   .feature-card { grid-column: auto; }
   .footer { flex-direction: column; }
   .cv-heading { flex-direction: column; }
