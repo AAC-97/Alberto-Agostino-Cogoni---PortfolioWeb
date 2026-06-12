@@ -13,7 +13,8 @@ Versione pronta per pubblicazione statica con:
 - pagine 404 e privacy;
 - asset generati inclusi localmente;
 - demo portfolio per ristorante, palestra, Booking Desk e Sales Desk;
-- case study live Gaia Dessi Beauty collegato al dominio dedicato.
+- case study live Gaia Dessi Beauty collegato al dominio dedicato;
+- homepage, privacy e CV web riposizionati su siti web, automazioni, gestionali e manutenzione applicativa.
 
 ## Verifiche eseguite
 
