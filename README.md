@@ -7,6 +7,7 @@ Static HTML/CSS/JavaScript site generated from the pasted brief.
 - `index.html`: personal portfolio for Alberto Agostino Cogoni.
 - `ristorante-demo.html`, `palestra-demo.html`: website demo pages for local business case studies.
 - `booking-desk-demo.html`, `sales-desk-demo.html`: internal tool demo pages for booking and sales workflows.
+- `https://gaiadessibeauty.it/`: live external case study linked from the portfolio projects section.
 - `cv.html`: printable web CV fallback.
 - `Assets/docs/CV_ALBERTO_COGONI.pdf`: downloadable CV PDF.
 - `Assets/images/alberto-profile.jpeg`: real portrait photo for the personal portfolio.

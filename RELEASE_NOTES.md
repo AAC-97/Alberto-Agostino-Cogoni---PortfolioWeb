@@ -12,7 +12,8 @@ Versione pronta per pubblicazione statica con:
 - SEO base con favicon, Open Graph, dati strutturati, robots.txt e sitemap.xml;
 - pagine 404 e privacy;
 - asset generati inclusi localmente;
-- demo portfolio per ristorante, palestra, Booking Desk e Sales Desk.
+- demo portfolio per ristorante, palestra, Booking Desk e Sales Desk;
+- case study live Gaia Dessi Beauty collegato al dominio dedicato.
 
 ## Verifiche eseguite
 
