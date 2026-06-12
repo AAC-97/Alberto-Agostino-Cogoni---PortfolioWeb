@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Booking Desk | Demo gestionale prenotazioni</title>
+    <meta name="description" content="Demo di dashboard per gestire prenotazioni, richieste clienti, appuntamenti, note e conferme per attività locali e servizi su appuntamento.">
+    <meta property="og:title" content="Booking Desk | Demo gestionale prenotazioni">
+    <meta property="og:description" content="Dashboard demo per attività locali: calendario, richieste in attesa, schede cliente, canali di contatto e priorità operative.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://albertocogoni.com/booking-desk-demo.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#e9fff6">
+    <link rel="icon" href="Assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="Assets/styles.css">
+  </head>
+  <body class="demo-page app-demo booking-desk-demo">
+    <header class="demo-header app-header">
+      <a class="demo-brand" href="index.html#projects" aria-label="Torna alla sezione progetti del portfolio">
+        <span class="brand-mark">BD</span>
+        <span>Booking Desk</span>
+      </a>
+      <nav class="demo-nav" aria-label="Navigazione demo Booking Desk">
+        <a href="#dashboard">Dashboard</a>
+        <a href="#workflow">Flusso</a>
+        <a href="#features">Funzioni</a>
+        <a href="#contact">Demo</a>
+        <a href="index.html#projects">Portfolio</a>
+      </nav>
+    </header>
+
+    <main id="dashboard">
+      <section class="app-shell">
+        <aside class="app-sidebar" aria-label="Menu demo">
+          <strong>Booking Desk</strong>
+          <a href="#dashboard" class="is-active">Panoramica</a>
+          <a href="#requests">Richieste</a>
+          <a href="#calendar">Calendario</a>
+          <a href="#clients">Clienti</a>
+          <a href="#workflow">Workflow</a>
+        </aside>
+
+        <section class="app-dashboard">
+          <div class="app-topbar">
+            <div>
+              <p class="demo-kicker">Demo gestionale prenotazioni</p>
+              <h1>Organizza appuntamenti, richieste e follow-up senza perdere messaggi.</h1>
+              <p>Una dashboard pensata per estetiste, studi, palestre, consulenti e attività che lavorano su prenotazione.</p>
+            </div>
+            <a class="button primary" href="#contact">Richiedi una demo simile</a>
+          </div>
+
+          <div class="app-kpi-grid" aria-label="Indicatori principali Booking Desk">
+            <article class="app-kpi-card">
+              <span>Richieste oggi</span>
+              <strong>18</strong>
+              <small>+6 da WhatsApp</small>
+            </article>
+            <article class="app-kpi-card">
+              <span>Da confermare</span>
+              <strong>7</strong>
+              <small>3 entro le 12:00</small>
+            </article>
+            <article class="app-kpi-card">
+              <span>Appuntamenti</span>
+              <strong>24</strong>
+              <small>Settimana corrente</small>
+            </article>
+            <article class="app-kpi-card">
+              <span>Tempo risposta</span>
+              <strong>14m</strong>
+              <small>Media stimata</small>
+            </article>
+          </div>
+
+          <div class="booking-grid">
+            <section class="app-panel" id="requests">
+              <div class="app-panel-heading">
+                <h2>Richieste in attesa</h2>
+                <button type="button">Filtra</button>
+              </div>
+              <div class="request-list">
+                <article class="request-card urgent">
+                  <span class="status-dot"></span>
+                  <div>
+                    <strong>Maria C.</strong>
+                    <p>Vorrei prenotare manicure e semipermanente per venerdì.</p>
+                  </div>
+                  <small>WhatsApp · urgente</small>
+                </article>
+                <article class="request-card">
+                  <span class="status-dot"></span>
+                  <div>
+                    <strong>Luca P.</strong>
+                    <p>Richiesta prova gratuita e disponibilità fascia serale.</p>
+                  </div>
+                  <small>Form sito</small>
+                </article>
+                <article class="request-card">
+                  <span class="status-dot"></span>
+                  <div>
+                    <strong>Studio Aurora</strong>
+                    <p>Serve spostare due appuntamenti e avvisare i clienti.</p>
+                  </div>
+                  <small>Telefono</small>
+                </article>
+              </div>
+            </section>
+
+            <section class="app-panel calendar-panel" id="calendar">
+              <div class="app-panel-heading">
+                <h2>Calendario operativo</h2>
+                <button type="button">Nuovo slot</button>
+              </div>
+              <div class="calendar-board" aria-label="Calendario demo">
+                <span>Lun</span><span>Mar</span><span>Mer</span><span>Gio</span><span>Ven</span>
+                <button type="button">09:00<br>Libero</button>
+                <button type="button" class="booked">10:30<br>Confermato</button>
+                <button type="button">12:00<br>Libero</button>
+                <button type="button" class="pending">15:00<br>In attesa</button>
+                <button type="button" class="booked">17:30<br>Confermato</button>
+              </div>
+            </section>
+
+            <section class="app-panel client-panel" id="clients">
+              <div class="app-panel-heading">
+                <h2>Scheda cliente</h2>
+                <button type="button">Aggiorna</button>
+              </div>
+              <div class="client-card">
+                <div class="client-avatar">MC</div>
+                <div>
+                  <strong>Maria C.</strong>
+                  <p>Cliente ricorrente · preferisce contatto WhatsApp</p>
+                </div>
+              </div>
+              <ul class="app-checklist">
+                <li><span></span>Ultimo servizio: pedicure professionale</li>
+                <li><span></span>Preferenza oraria: venerdì pomeriggio</li>
+                <li><span></span>Nota interna: inviare promemoria 24h prima</li>
+              </ul>
+            </section>
+          </div>
+        </section>
+      </section>
+
+      <section class="demo-section split" id="workflow">
+        <div>
+          <p class="eyebrow">Flusso operativo</p>
+          <h2>Dal messaggio alla prenotazione confermata.</h2>
+        </div>
+        <div class="demo-method-steps">
+          <article>
+            <span>1</span>
+            <h3>Raccogli</h3>
+            <p>Le richieste arrivano da form, WhatsApp, telefono o social e vengono ordinate in un unico pannello.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Qualifica</h3>
+            <p>Ogni richiesta ha servizio, urgenza, canale, preferenza oraria e note interne.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Conferma</h3>
+            <p>Il team vede cosa manca, conferma lo slot e prepara il follow-up senza confusione.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section demo-band" id="features">
+        <p class="eyebrow">Funzioni pensate per attività reali</p>
+        <h2>Non solo calendario: uno strumento per ridurre errori, tempi morti e messaggi dispersi.</h2>
+        <div class="demo-offer-grid">
+          <article class="demo-offer-card">
+            <span>01</span>
+            <h3>Agenda e disponibilità</h3>
+            <p>Slot liberi, appuntamenti confermati, richieste in attesa e blocchi orari leggibili da desktop e mobile.</p>
+          </article>
+          <article class="demo-offer-card">
+            <span>02</span>
+            <h3>Storico cliente</h3>
+            <p>Note, preferenze, ultimo servizio, canale preferito e promemoria interni per personalizzare il servizio.</p>
+          </article>
+          <article class="demo-offer-card">
+            <span>03</span>
+            <h3>Priorità operative</h3>
+            <p>Vista giornaliera con richieste urgenti, clienti da richiamare e appuntamenti da confermare.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section demo-work-section">
+        <div>
+          <p class="eyebrow">Perché questa demo funziona</p>
+          <h2>Mostra come un piccolo gestionale può avere impatto immediato.</h2>
+          <p class="prose">La demo è costruita per far capire a un’attività locale cosa può ottenere: meno caos nei messaggi, più controllo sulle richieste e una gestione più professionale della relazione cliente.</p>
+        </div>
+        <div class="demo-work-grid">
+          <article>
+            <h3>Conversione</h3>
+            <p>Ogni richiesta viene trasformata in una scheda gestibile, con prossima azione chiara.</p>
+          </article>
+          <article>
+            <h3>Operatività</h3>
+            <p>Le informazioni importanti sono visibili subito: priorità, stato, orario e canale.</p>
+          </article>
+          <article>
+            <h3>Personalizzazione</h3>
+            <p>La struttura può essere adattata a saloni beauty, studi medici privati, palestre, consulenti o centri servizi.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section contact" id="contact">
+        <div>
+          <p class="eyebrow">Demo dimostrativa</p>
+          <h2>Vuoi uno strumento simile per gestire prenotazioni o richieste?</h2>
+          <p class="prose">Questa pagina non invia dati reali: mostra il tipo di interfaccia che può essere progettata su misura per un’attività.</p>
+          <div class="demo-contact-list">
+            <a class="button primary" href="index.html#contact">Richiedi una consulenza</a>
+            <a class="button secondary" href="sales-desk-demo.html">Vedi Sales Desk</a>
+          </div>
+        </div>
+        <form class="contact-form" aria-label="Form demo Booking Desk">
+          <label>
+            <span>Tipo attività</span>
+            <input value="Centro estetico / studio su appuntamento" readonly>
+          </label>
+          <label>
+            <span>Obiettivo</span>
+            <input value="Ridurre messaggi dispersi e conferme manuali" readonly>
+          </label>
+          <label>
+            <span>Nota</span>
+            <textarea rows="5" readonly>Demo portfolio: il form è solo dimostrativo.</textarea>
+          </label>
+          <button class="button primary" type="button">Invia richiesta demo</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="demo-footer">
+      <span>Booking Desk · Demo strumento interno</span>
+      <span><a href="index.html#projects">Torna al portfolio</a></span>
+    </footer>
+  </body>
+</html>

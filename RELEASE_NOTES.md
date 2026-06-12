@@ -11,7 +11,8 @@ Versione pronta per pubblicazione statica con:
 - form predisposti per Formspree;
 - SEO base con favicon, Open Graph, dati strutturati, robots.txt e sitemap.xml;
 - pagine 404 e privacy;
-- asset generati inclusi localmente.
+- asset generati inclusi localmente;
+- demo portfolio per ristorante, palestra, Booking Desk e Sales Desk.
 
 ## Verifiche eseguite
 

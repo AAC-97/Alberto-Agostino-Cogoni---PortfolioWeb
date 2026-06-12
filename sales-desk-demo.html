@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sales Desk | Demo dashboard preventivi e trattative</title>
+    <meta name="description" content="Demo di dashboard commerciale per gestire lead, preventivi, pipeline, valore delle trattative, follow-up e prossime azioni.">
+    <meta property="og:title" content="Sales Desk | Demo dashboard preventivi e trattative">
+    <meta property="og:description" content="Dashboard demo per freelance, agenzie, consulenti e team B2B: pipeline, preventivi, valore atteso e follow-up.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://albertocogoni.com/sales-desk-demo.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#15172b">
+    <link rel="icon" href="Assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="Assets/styles.css">
+  </head>
+  <body class="demo-page app-demo sales-desk-demo">
+    <header class="demo-header app-header">
+      <a class="demo-brand" href="index.html#projects" aria-label="Torna alla sezione progetti del portfolio">
+        <span class="brand-mark">SD</span>
+        <span>Sales Desk</span>
+      </a>
+      <nav class="demo-nav" aria-label="Navigazione demo Sales Desk">
+        <a href="#dashboard">Pipeline</a>
+        <a href="#quotes">Preventivi</a>
+        <a href="#forecast">Forecast</a>
+        <a href="#contact">Demo</a>
+        <a href="index.html#projects">Portfolio</a>
+      </nav>
+    </header>
+
+    <main id="dashboard">
+      <section class="app-shell sales-shell">
+        <aside class="app-sidebar" aria-label="Menu demo">
+          <strong>Sales Desk</strong>
+          <a href="#dashboard" class="is-active">Pipeline</a>
+          <a href="#quotes">Preventivi</a>
+          <a href="#forecast">Forecast</a>
+          <a href="#activity">Follow-up</a>
+          <a href="#contact">Demo</a>
+        </aside>
+
+        <section class="app-dashboard">
+          <div class="app-topbar">
+            <div>
+              <p class="demo-kicker">Demo dashboard commerciale</p>
+              <h1>Controlla lead, preventivi e prossime azioni prima che si raffreddino.</h1>
+              <p>Una dashboard pensata per freelance, agenzie, consulenti e team B2B che vogliono seguire trattative e valore commerciale con ordine.</p>
+            </div>
+            <a class="button primary" href="#contact">Richiedi una demo simile</a>
+          </div>
+
+          <div class="app-kpi-grid sales-kpi-grid" aria-label="Indicatori principali Sales Desk">
+            <article class="app-kpi-card">
+              <span>Pipeline aperta</span>
+              <strong>42.800€</strong>
+              <small>12 trattative attive</small>
+            </article>
+            <article class="app-kpi-card">
+              <span>Preventivi inviati</span>
+              <strong>9</strong>
+              <small>4 da richiamare</small>
+            </article>
+            <article class="app-kpi-card">
+              <span>Probabilità media</span>
+              <strong>61%</strong>
+              <small>+8% questo mese</small>
+            </article>
+            <article class="app-kpi-card">
+              <span>Valore atteso</span>
+              <strong>26.100€</strong>
+              <small>Forecast ponderato</small>
+            </article>
+          </div>
+
+          <div class="sales-grid">
+            <section class="app-panel pipeline-panel" id="quotes">
+              <div class="app-panel-heading">
+                <h2>Pipeline trattative</h2>
+                <button type="button">Nuovo lead</button>
+              </div>
+              <div class="pipeline-board" aria-label="Pipeline commerciale demo">
+                <article>
+                  <h3>Nuovo lead</h3>
+                  <div class="deal-card">
+                    <strong>Studio Legale Ferri</strong>
+                    <span>Sito + area riservata</span>
+                    <small>4.800€ · 35%</small>
+                  </div>
+                  <div class="deal-card">
+                    <strong>FitLab Cagliari</strong>
+                    <span>Landing + automazioni</span>
+                    <small>2.200€ · 45%</small>
+                  </div>
+                </article>
+                <article>
+                  <h3>Preventivo inviato</h3>
+                  <div class="deal-card hot">
+                    <strong>Nordica Service</strong>
+                    <span>CRM richieste clienti</span>
+                    <small>7.500€ · 72%</small>
+                  </div>
+                  <div class="deal-card">
+                    <strong>Studio Vela</strong>
+                    <span>Manutenzione siti</span>
+                    <small>1.800€ · 55%</small>
+                  </div>
+                </article>
+                <article>
+                  <h3>In chiusura</h3>
+                  <div class="deal-card won">
+                    <strong>Marina Boutique</strong>
+                    <span>E-commerce leggero</span>
+                    <small>6.400€ · 88%</small>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="app-panel forecast-panel" id="forecast">
+              <div class="app-panel-heading">
+                <h2>Forecast</h2>
+                <button type="button">Esporta</button>
+              </div>
+              <div class="forecast-chart" aria-label="Grafico forecast demo">
+                <span style="height: 42%"></span>
+                <span style="height: 64%"></span>
+                <span style="height: 78%"></span>
+                <span style="height: 56%"></span>
+                <span style="height: 88%"></span>
+              </div>
+              <p class="panel-note">Il valore atteso combina importo, probabilità e fase della trattativa.</p>
+            </section>
+
+            <section class="app-panel activity-panel" id="activity">
+              <div class="app-panel-heading">
+                <h2>Prossime azioni</h2>
+                <button type="button">Aggiungi</button>
+              </div>
+              <ul class="activity-list">
+                <li><span>09:30</span> Richiamare Nordica Service per feedback preventivo.</li>
+                <li><span>11:00</span> Inviare proposta aggiornata a Studio Legale Ferri.</li>
+                <li><span>15:30</span> Follow-up email FitLab con riepilogo pacchetto.</li>
+                <li><span>Domani</span> Preparare bozza contratto Marina Boutique.</li>
+              </ul>
+            </section>
+          </div>
+        </section>
+      </section>
+
+      <section class="demo-section split" id="workflow">
+        <div>
+          <p class="eyebrow">Flusso commerciale</p>
+          <h2>Una trattativa chiara vale più di una lista di contatti.</h2>
+        </div>
+        <div class="demo-method-steps">
+          <article>
+            <span>1</span>
+            <h3>Registra il lead</h3>
+            <p>Origine, esigenza, valore stimato, probabilità e contatto vengono salvati in una scheda unica.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Invia il preventivo</h3>
+            <p>Ogni proposta ha stato, scadenza, importo e prossima azione, così il follow-up non resta a memoria.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Chiudi o rilancia</h3>
+            <p>La pipeline mostra cosa va seguito, cosa può chiudere e dove il valore rischia di fermarsi.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section demo-band" id="features">
+        <p class="eyebrow">Funzioni commerciali</p>
+        <h2>Uno strumento pensato per vendere servizi con più controllo e meno dispersione.</h2>
+        <div class="demo-offer-grid">
+          <article class="demo-offer-card">
+            <span>01</span>
+            <h3>Pipeline visiva</h3>
+            <p>Lead, preventivi e chiusure divisi per fase, probabilità e valore economico.</p>
+          </article>
+          <article class="demo-offer-card">
+            <span>02</span>
+            <h3>Follow-up guidato</h3>
+            <p>Promemoria e prossime azioni evitano trattative dimenticate dopo l’invio del preventivo.</p>
+          </article>
+          <article class="demo-offer-card">
+            <span>03</span>
+            <h3>Decisioni rapide</h3>
+            <p>Valore atteso, urgenza e storico contatti aiutano a capire dove concentrare il tempo commerciale.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section demo-work-section">
+        <div>
+          <p class="eyebrow">Perché questa demo funziona</p>
+          <h2>Fa vedere il valore di un gestionale su misura per vendite e preventivi.</h2>
+          <p class="prose">La demo mostra come un’azienda può passare da fogli sparsi e messaggi dispersi a una vista unica su trattative, valore economico e prossima azione.</p>
+        </div>
+        <div class="demo-work-grid">
+          <article>
+            <h3>Controllo</h3>
+            <p>Ogni opportunità ha stato, importo, probabilità, scadenza e responsabile.</p>
+          </article>
+          <article>
+            <h3>Priorità</h3>
+            <p>Le trattative più calde emergono subito, senza cercare tra email e note separate.</p>
+          </article>
+          <article>
+            <h3>Scalabilità</h3>
+            <p>Può evolvere in CRM leggero, area preventivi, report direzionale o integrazione con email e form.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section contact" id="contact">
+        <div>
+          <p class="eyebrow">Demo dimostrativa</p>
+          <h2>Vuoi una dashboard per preventivi, lead o pipeline commerciale?</h2>
+          <p class="prose">Questa pagina è una demo portfolio: mostra struttura, logica e interfaccia di uno strumento commerciale costruibile su misura.</p>
+          <div class="demo-contact-list">
+            <a class="button primary" href="index.html#contact">Richiedi una consulenza</a>
+            <a class="button secondary" href="booking-desk-demo.html">Vedi Booking Desk</a>
+          </div>
+        </div>
+        <form class="contact-form" aria-label="Form demo Sales Desk">
+          <label>
+            <span>Tipo azienda</span>
+            <input value="Agenzia / consulente / team B2B" readonly>
+          </label>
+          <label>
+            <span>Obiettivo</span>
+            <input value="Seguire preventivi e aumentare controllo commerciale" readonly>
+          </label>
+          <label>
+            <span>Nota</span>
+            <textarea rows="5" readonly>Demo portfolio: il form è solo dimostrativo.</textarea>
+          </label>
+          <button class="button primary" type="button">Invia richiesta demo</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="demo-footer">
+      <span>Sales Desk · Demo strumento interno</span>
+      <span><a href="index.html#projects">Torna al portfolio</a></span>
+    </footer>
+  </body>
+</html>

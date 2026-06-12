@@ -5,12 +5,14 @@ Static HTML/CSS/JavaScript site generated from the pasted brief.
 ## Files
 
 - `index.html`: personal portfolio for Alberto Agostino Cogoni.
+- `ristorante-demo.html`, `palestra-demo.html`: website demo pages for local business case studies.
+- `booking-desk-demo.html`, `sales-desk-demo.html`: internal tool demo pages for booking and sales workflows.
 - `cv.html`: printable web CV fallback.
 - `Assets/docs/CV_ALBERTO_COGONI.pdf`: downloadable CV PDF.
 - `Assets/images/alberto-profile.jpeg`: real portrait photo for the personal portfolio.
 - `privacy.html`: draft privacy page.
 - `404.html`: static not-found page for GitHub Pages.
-- `Assets/styles.css`: responsive design, light/dark theme and beauty-page theme.
+- `Assets/styles.css`: responsive design, light/dark theme and demo page themes.
 - `Assets/script.js`: browser language detection, manual language switch, theme toggle and email copy.
 - `robots.txt`, `sitemap.xml`, `site.webmanifest`, `Assets/favicon.svg`: SEO and browser basics.
 - `.nojekyll`: keeps GitHub Pages from applying Jekyll processing.
@@ -19,7 +21,7 @@ Static HTML/CSS/JavaScript site generated from the pasted brief.
 
 ## Replace before publishing
 
-- `https://formspree.io/f/your-form-id` in both forms.
+- Review the FormSubmit endpoints before publishing.
 - Review the public CV PDF before publishing, especially if it contains address, date of birth or other personal data.
 - Replace generated hero images with the real professional photos if desired.
 
