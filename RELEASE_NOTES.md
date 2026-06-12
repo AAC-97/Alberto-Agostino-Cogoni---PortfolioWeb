@@ -5,12 +5,10 @@
 Versione pronta per pubblicazione statica con:
 
 - portfolio personale bilingue IT/EN;
-- link al progetto Gaia Dessi Beauty su dominio separato;
 - tema chiaro/scuro per il portfolio;
-- foto reali di Alberto e Gaia;
+- foto reale di Alberto;
 - CV PDF scaricabile e CV web stampabile;
 - form predisposti per Formspree;
-- WhatsApp CTA per Gaia;
 - SEO base con favicon, Open Graph, dati strutturati, robots.txt e sitemap.xml;
 - pagine 404 e privacy;
 - asset generati inclusi localmente.
